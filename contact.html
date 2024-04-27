@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <nav class="nav">
+          <a href="./index.html">RUSTYKEYS</a>
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./buykeys.html">Buy Keys</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="contact section">
+        <h2 class="section__title">Connect With Me</h2>
+
+        <div class="contact__page grid">
+          <form action="" class="contact__form grid" id="contact-form">
+            <div class="contact__group grid">
+              <div class="contact__box">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  class="contact__input"
+                  id="name"
+                  name="user_name"
+                  required
+                />
+              </div>
+
+              <div class="contact__box">
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  class="contact__input"
+                  id="email"
+                  name="user_email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="contact__box contact__area">
+              <textarea
+                placeholder="Write your message"
+                name="user_message"
+                id="message"
+                class="contact__input"
+                required
+              ></textarea>
+            </div>
+
+            <p class="contact__message" id="contact-message"></p>
+
+            <button type="submit" class="contact__send button">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
